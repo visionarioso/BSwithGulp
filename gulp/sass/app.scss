@@ -100,3 +100,25 @@ body {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
+
+
+// Custom css graphics
+
+.graphic_container {
+  width: 100%;
+  position: relative;
+}
+.graphic_container:before {
+  content: "";
+    display: block;
+    padding-top: 42.23%;
+}
+.chart {
+    background-color: #ededed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
