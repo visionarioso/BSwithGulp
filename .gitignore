@@ -17,7 +17,11 @@ tramp
 
 # Node
 # Dependency directories
+<<<<<<< HEAD
 gulp/node_modules/
+=======
+node_modules/
+>>>>>>> Template initial commit
 jspm_packages/
 # Optional npm cache directory
 .npm
