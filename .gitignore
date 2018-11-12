@@ -1,0 +1,40 @@
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+.~lock*
+.DS_Store
+~$*
+*.zip
+*.tar.gz
+*.tar.bz
+
+# Node
+# Dependency directories
+gulp/node_modules/
+jspm_packages/
+# Optional npm cache directory
+.npm
+# Output of 'npm pack'
+*.tgz
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+*.sublime-*
+
